@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>lingo</title>
+	<link rel="stylesheet" type="text/css" href="lingo.css">
+</head>
+<body>
+	<div id="main"> Guess the word!</div>
+	<div id="smallmain">Green = correct letter, yellow = wrong place</div>
+	<div id="container">
+		<div id="row1">
+			<div class="square default"></div>
+            <div class="square default"></div>
+            <div class="square default"></div>
+            <div class="square default"></div>
+            <div class="square default"></div>
+        </div>
+
+        <div id="row2">
+            <div class="square default"></div>
+            <div class="square default"></div>
+            <div class="square default"></div>
+            <div class="square default"></div>
+            <div class="square default"></div>
+        </div>
+
+        <div id="row3">
+            <div class="square default"></div>
+            <div class="square default"></div>
+            <div class="square default"></div>
+            <div class="square default"></div>
+            <div class="square default"></div>
+        </div>
+
+        <div id="row4">
+            <div class="square default"></div>
+            <div class="square default"></div>
+            <div class="square default"></div>
+            <div class="square default"></div>
+            <div class="square default"></div>
+        </div>
+
+        <div id="row5">
+            <div class="square default"></div>
+            <div class="square default"></div>
+            <div class="square default"></div>
+            <div class="square default"></div>
+            <div class="square default"></div>
+        </div>
+    </div>
+    
+    <input id="guess" onkeypress="submitguess(this)" placeholder="type your guess!">
+    <button id="button" class="invisible" onclick="playagain()">Play Again?</button>
+ <script src="lingo.js"></script>
+</body>
+</html>
